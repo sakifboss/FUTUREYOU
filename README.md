@@ -123,3 +123,39 @@ node_modules/
 ## Contact
 
 If you want, I can also help you add a README `Features` section, architecture diagram, or deployment checklist for your production engineer audience.
+
+## Live Demo
+
+- **Frontend (live):** https://your-frontend.vercel.app  
+- **Backend API (live):** https://your-backend.onrender.com
+
+Replace the placeholder URLs above with the real URLs you get after deployment.
+
+### Quick deployment guide
+
+Recommended fast path: deploy the frontend to **Vercel** and the backend to **Render** (or Railway). After both are deployed, add the frontend URL as the `Live Demo` link above.
+
+Frontend (Vercel)
+
+1. Push your repository to GitHub (already done).
+2. Sign in to https://vercel.com and create a new project -> "Import Git Repository" -> select `FUTUREYOU`.
+3. For the root path, choose `/frontend`.
+4. Set the build command to `npm run build` and the output directory to `.next` (Vercel auto-detects Next.js in most cases).
+5. Add any environment variables the frontend needs (e.g., `NEXT_PUBLIC_API_URL=https://your-backend.onrender.com`).
+6. Deploy — Vercel will provide a live URL (copy it into the `Live Demo` link above).
+
+Backend (Render)
+
+1. Sign in to https://render.com and create a new Web Service -> "Connect a repository" -> choose the `backend` folder.
+2. Set the start command to `uvicorn app.main:app --host 0.0.0.0 --port $PORT` and the environment to Python 3.11.
+3. Add environment variables (database URL, secrets) in Render's dashboard.
+4. Ensure CORS in `backend/app/core/config.py` includes your frontend URL (or `*` for testing) so the deployed frontend can call the API.
+5. Deploy — Render provides a URL like `https://your-backend.onrender.com`.
+
+Notes
+
+- Use secure environment variables for keys and DB credentials.  
+- For production, enable HTTPS and configure proper DB hosting (Postgres, etc.) instead of local SQLite.  
+- To show the live demo on GitHub, edit the `Live Demo` URLs above with the real deployment links and commit the change.
+
+If you'd like, I can deploy the frontend to Vercel and the backend to Render for you (I will guide you through any credentials and environment variables needed). 
