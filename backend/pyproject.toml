@@ -1,0 +1,12 @@
+[project]
+name = "futureyou-backend"
+version = "0.1.0"
+description = "FastAPI backend for FutureYou decision intelligence and scenario simulation."
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

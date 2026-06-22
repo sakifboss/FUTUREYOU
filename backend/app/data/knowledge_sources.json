@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Bangladesh Career Planning Notes",
+    "url": "https://example.org/bangladesh-career-planning",
+    "publisher": "FutureYou Curated Dataset",
+    "source_type": "career_guide",
+    "country": "Bangladesh",
+    "summary": "Curated guidance for comparing local jobs, remote work, and skill building in Bangladesh.",
+    "content": "Career decisions in Bangladesh often depend on English communication, portfolio evidence, reliable internet access, local salary expectations, and family financial constraints. Entry level software and AI roles usually reward demonstrable projects, internships, open source work, and interview preparation. Remote work and freelancing can offer higher upside but income is less predictable and requires client communication, payment reliability, and self management. Stable employment can build credibility and routine while the user continues skill development.",
+    "tags": ["career", "bangladesh", "software", "remote work"],
+    "reliability_score": 0.72
+  },
+  {
+    "title": "Study Abroad Decision Checklist",
+    "url": "https://example.org/study-abroad-checklist",
+    "publisher": "FutureYou Curated Dataset",
+    "source_type": "education_resource",
+    "country": null,
+    "summary": "Checklist for evaluating study abroad plans responsibly.",
+    "content": "Study abroad planning should verify admission eligibility, scholarship deadlines, tuition, living cost, visa requirements, language tests, application fees, health insurance, work rules, and fallback options. A strong plan includes official university pages, government visa sources, documented funding, and a timeline that starts months before deadlines. Students should avoid relying only on agency claims and should compare expected career outcomes with total cost and debt risk.",
+    "tags": ["study abroad", "scholarship", "visa", "cost of living"],
+    "reliability_score": 0.78
+  },
+  {
+    "title": "AI and Web Development Skill Roadmap",
+    "url": "https://example.org/ai-web-roadmap",
+    "publisher": "FutureYou Curated Dataset",
+    "source_type": "skill_roadmap",
+    "country": null,
+    "summary": "Practical roadmap for choosing AI, web development, or a hybrid path.",
+    "content": "A web development path usually starts with HTML, CSS, JavaScript, TypeScript, React or Next.js, backend APIs, databases, deployment, testing, and portfolio projects. An AI path benefits from Python, math fundamentals, data handling, model APIs, evaluation, prompt engineering, retrieval augmented generation, and product thinking. A hybrid AI application developer path can be practical because it combines deployable product skills with AI integration without requiring local model training.",
+    "tags": ["ai", "web development", "skills", "roadmap"],
+    "reliability_score": 0.8
+  },
+  {
+    "title": "Financial Planning for Career Transitions",
+    "url": "https://example.org/career-transition-budget",
+    "publisher": "FutureYou Curated Dataset",
+    "source_type": "financial_planning",
+    "country": null,
+    "summary": "Budget and risk controls for switching career, freelancing, or startup choices.",
+    "content": "Career transitions are safer when the user defines runway, monthly expenses, emergency fund, minimum acceptable income, and a stop loss date. Freelancing and startup paths should be tested with small experiments before full commitment. Stable job paths can reduce financial stress but may slow exploration if no deliberate learning schedule exists. A good plan sets weekly milestones, budget ceilings, and fallback triggers.",
+    "tags": ["financial planning", "career switch", "freelancing", "startup"],
+    "reliability_score": 0.76
+  }
+]
